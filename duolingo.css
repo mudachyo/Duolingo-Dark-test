@@ -236,15 +236,27 @@ body,  ._2PVaI, ._3bTT7  {
 
 /* Цвет развёрнутых уведомлений */
 ._3EBie {
-    background-color: #243240;
+    background-color: #243240 !important;
 }
 
 /*Цвет кнопки когда подписываешься на кого-то */
 ._2veQ2:after{
-    background-color: #252d38
+    background-color: #252d38 !important;
 }
 
 /* Цвет обводки кнопки, когда подписался */
 ._2veQ2 {
-    background-color: #758dab;
+    background-color: #758dab !important;
+}
+
+/* Цвет изменения цели */
+._26wPn:after {
+    background-color: #252d38;
+    border-color: #5e758e;
+}
+
+/* Цвет выбранной цели */
+._1HjFK:after, .fJSw6:hover:not(:active):not(._326cY):not(.IACXk):after {
+    background-color: #181d24;
+    border-color: #4e6176;
 }
