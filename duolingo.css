@@ -238,3 +238,13 @@ body,  ._2PVaI, ._3bTT7  {
 ._3EBie {
     background-color: #243240;
 }
+
+/*Цвет кнопки когда подписываешься на кого-то */
+._2veQ2:after{
+    background-color: #252d38
+}
+
+/* Цвет обводки кнопки, когда подписался */
+._2veQ2 {
+    background-color: #758dab;
+}
