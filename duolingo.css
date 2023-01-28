@@ -1,0 +1,237 @@
+@-moz-document domain("duolingo.com") {
+/* Шапка */
+._3g2C1,  .header  {
+    
+    background-color: #252d38 !important;
+    
+    border-bottom: 2px solid #252d38 !important;
+    
+    border-bottom-color: var(--web-ui_topbar-border-color, #252d38) !important;
+    
+}
+
+/* Тело сайта*/
+body,  ._2PVaI, ._3bTT7  {
+    
+    background: #1d242d !important;
+    
+    color: #fff !important;
+    
+}
+
+/* Таблицы */
+._3ZuGY,  ._3WmPv, main {
+    
+    background: #252d38 !important;
+    
+    border-color:#5e758e !important;
+    
+}
+
+/* Цвет заголовков */
+._3HNwo,  ._3PrAS, ._23mZA,  ._3qZKu,  ._2mU94,  ._26wPn,  ._1hKmP,  .DYCFd,  ._2cltK, .XH783, ._1Jk5X, ._3ly0h,  ._2I8yp,  ._1X2WL,  ._1QhgU,  ._1Y-pT, .__2uf-t,  h2,  ._1ccgT,  .PqXfk,  ._2gk65,  ._1V_qq, .oN_-E {
+    
+    color: #75b2ef !important;
+    
+}
+
+
+/* Цвет текста */
+._35HQJ,  .s6l3H, .uqCpu ._2WiQc,  ._1wy04,  ._1eSrF,  ._3uAwj,  ._2uf-t p,   ._2WP_P,  .aHtQu,  .WOZnx,  .XWge1,  ._2-OmZ,  ._1VA3z,  ._1nO95, .hOdmy, ._3mABf, .hOVdl, ._1MTUU,  ._3YkaQ,  ._1CsoA  {
+    
+    color: #fff !important;
+    
+    
+}
+
+
+/* Цвет фона при навождении панели слева */
+._1eTnJ:hover:not(._2IQEn), ._1eSrF,  ._1KF6e:hover,  .InGFc:hover{
+    
+    background-color: #242c37 !important;
+    
+}
+
+/* Кнопка тренировки и т.д */
+.WOZnx:before  {
+    
+    background-color: var(--web-ui_button-background-color, #405f7a) !important;
+    
+    border-color: #5e758e !important;
+    
+    box-shadow: 0 2px 0 var(--__internal__border-color),  #5e758e !important;
+    
+}
+
+/* Кнопка начать урок,  перейти к след уроку и т.д */
+._1KUxv  {
+    
+    background-color:#35475d !important;
+    
+    border:#35475d !important;
+    
+}
+
+/* Панель смены языки */
+.uqCpu ._2WiQc:hover,  .uqCpu ._1Gh9e,  .uqCpu .uOkpe:hover,  ._2O14B ._2XlfZ ._1v2Gj,  ._1kT7v {
+    
+    background-color: #1d242d !important;
+    
+    border-color: #5e758e !important;
+    
+}
+
+/* Неактивная кнопка */
+._2NolF:disabled:not(._1rl91):before,  ._2NolF.LhRk3:not(._1rl91):before,  ._2NolF:disabled:not(._1rl91):before {
+    
+    background-color: #0d1014 !important;
+    
+}
+
+/* Цвет кнопки подписки в уведомлениях */
+.kx8zL,  .WOZnx ._275sd ._1ZefG ._kx8zL,  hr,  ._3sYli:first-of-type,  ._1KF6e,  ._1KUxv,  ._3sYli {
+    
+    --web-ui_button-background-color: #252d38 !important;
+     /*Фон кнопки*/
+    --web-ui_button-color:#fff !important;
+     /*Цвет текста*/
+    border-top: 2px solid #252d38 !important;
+    
+    border-top-color: rgb(37,  45,  56) !important;
+    
+    border-bottom: rgb(37,  45,  56) !important;
+    
+}
+
+/* Цвет выделения меня в таблице лидеров лиги */
+.IkLCT._3VNma,  ._2p1op,  ._2BPAp   {
+    
+    background: #252d38 !important;
+    
+    color: #1fd7d7 !important;
+    
+}
+
+/* /practice */
+._399cc,  ._WOZnx,  ._3IvEG  {
+    
+    background-color: #252d38 !important;
+    
+    border-top: 2px solid rgb(37,  45,  56) !important;
+    
+}
+
+/* Полоска в прохождении теста */
+._2YmyD  {
+    
+    background: #606060 !important;
+    
+}
+
+/* Поле ввода */
+._1QDX9,  ._2FKqf, ._2gBEa {
+    
+    background-color: #35475d !important;
+    
+    border-color: #404e5e !important;
+    
+}
+
+/* Цвет кнопки ответа */
+._3C_oC:before  {
+    
+    background-color: #252d38 !important;
+    
+
+}
+
+/* Цвет выделения кнопки */
+._3C_oC:hover:not(:active):not(.disCS):not(.hfPEz):before,  .rmbzf:hover  {
+    
+    background-color: #425060 !important;
+    
+}
+
+/* Цвет выделенной кнопки */
+._3C_oC.disCS:before,  ._3C_oC:active:not(.hfPEz):before  {
+    
+    background-color: var(--web-ui_card-background-color-checked, #455669) !important;
+    
+}
+
+/* Цвет цифры выделенной кнопки */
+.Z7UoT  {
+    
+    border-color: #00a0eb !important;
+    
+    color: #e8eef1 !important;
+    
+}
+
+/* Цвет фона "Решено верно" */
+
+._3e9O1  {
+    
+    background-color: #3a5624 !important;
+    
+    color: #58a700 !important;
+    
+}
+
+/* Цвет фона "Решено НЕверно" */
+._3vF5k  {
+    
+    background-color: #562424 !important;
+    
+    color: #ea2b2b !important;
+    
+}
+
+/* Цвет фона ачивок в профиле */
+._2ikVT  {
+    
+    background-color: #1d242d !important;
+    
+}
+
+/* Цвет иконок в ачивках */
+._2l3ju,  ._19UAQ, ._1o6AI,  .zAIdz,  .HnjwC {
+    
+    background-color: #1d242d !important;
+    
+    border-color:#4f5358 !important;
+    
+}
+
+/* Цвет обводки */
+._3Pm6e,  ._2vsBg,  .BMuTY,  ._1aS6c   {
+    
+    border-color: #4e5257 !important;
+    
+}
+
+/* Цвет обводки снизу */
+._91Tq4,  ._2hN48,  ._2GEam,  ._2gk65,  ._2gk65  {
+    
+    border-bottom: 2px solid #4e5257 !important;
+    
+}
+
+/* Переключатель выключен */
+.eP5n4,  .eP5n4:before  {
+    
+    background: #35475d !important;
+    
+    border-color: #758dab !important;
+    
+}
+
+/* Переключатель включен */
+.eP5n4.BLCtW,  eP5n4.BLCtW:before  {
+    
+    background: #3d86df !important;
+    
+    border-color: #a8abad !important;
+    
+}
+}
