@@ -265,3 +265,8 @@ body,  ._2PVaI, ._3bTT7  {
 ._2ti2i {
     color: #fff !important;
 }
+
+/* Нажатая кнопка "нравится" */
+.t1Hcp {
+    --web-ui_button-background-color: #1d2224 !important;
+}
