@@ -251,12 +251,12 @@ body,  ._2PVaI, ._3bTT7  {
 
 /* Цвет изменения цели */
 ._26wPn:after {
-    background-color: #252d38;
-    border-color: #5e758e;
+    background-color: #252d38 !important;
+    border-color: #5e758e !important;
 }
 
 /* Цвет выбранной цели */
 ._1HjFK:after, .fJSw6:hover:not(:active):not(._326cY):not(.IACXk):after {
-    background-color: #181d24;
-    border-color: #4e6176;
+    background-color: #181d24 !important;
+    border-color: #4e6176 !important;
 }
