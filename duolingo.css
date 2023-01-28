@@ -1,4 +1,3 @@
-@-moz-document domain("duolingo.com") {
 /* Шапка */
 ._3g2C1,  .header  {
     
@@ -89,7 +88,7 @@ body,  ._2PVaI, ._3bTT7  {
 }
 
 /* Цвет кнопки подписки в уведомлениях */
-.kx8zL,  .WOZnx ._275sd ._1ZefG ._kx8zL,  hr,  ._3sYli:first-of-type,  ._1KF6e,  ._1KUxv,  ._3sYli {
+.kx8zL,  .WOZnx ._275sd ._1ZefG ._kx8zL,  hr,  ._3sYli:first-of-type,  ._1KF6e,  ._1KUxv,  ._3sYli ,._1OtjJ{
     
     --web-ui_button-background-color: #252d38 !important;
      /*Фон кнопки*/
@@ -146,7 +145,7 @@ body,  ._2PVaI, ._3bTT7  {
 }
 
 /* Цвет выделения кнопки */
-._3C_oC:hover:not(:active):not(.disCS):not(.hfPEz):before,  .rmbzf:hover  {
+._3C_oC:hover:not(:active):not(.disCS):not(.hfPEz):before,  .rmbzf:hover, .DXux8>li:hover {
     
     background-color: #425060 !important;
     
@@ -195,7 +194,7 @@ body,  ._2PVaI, ._3bTT7  {
 }
 
 /* Цвет иконок в ачивках */
-._2l3ju,  ._19UAQ, ._1o6AI,  .zAIdz,  .HnjwC {
+._2l3ju,  ._19UAQ, ._1o6AI,  .zAIdz,  .HnjwC, .FrL-W {
     
     background-color: #1d242d !important;
     
@@ -234,4 +233,8 @@ body,  ._2PVaI, ._3bTT7  {
     border-color: #a8abad !important;
     
 }
+
+/* Цвет развёрнутых уведомлений */
+._3EBie {
+    background-color: #243240;
 }
