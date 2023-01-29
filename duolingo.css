@@ -291,3 +291,14 @@ body,  ._2PVaI, ._3bTT7  {
 ._3lUbm {
     background: #405f7a !important;
 }
+
+/*Фон при регистрации*/
+.zjpsS {
+    background: #252d38 !important;
+}
+
+/*Фон выбора уроков при регистрации*/
+._1lHHm {
+    background-color: #252d38;
+    border: 2px solid #5e758e;
+}
