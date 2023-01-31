@@ -320,6 +320,11 @@ body,  ._2PVaI, ._3bTT7  {
 
 /*Цвет меню в schools справа */
 ._1Xxl4 {
-    background-color: #252d38;
-    border-left: 2px solid #1d242d;
+    background-color: #252d38 !important;
+    border-left: 2px solid #1d242d !important;
+}
+
+/* Цвет полоски в меню */
+.LBwQo {
+    border-right: 1px solid #5e758e !important;
 }
