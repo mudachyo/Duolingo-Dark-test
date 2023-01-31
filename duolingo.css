@@ -19,7 +19,7 @@ body,  ._2PVaI, ._3bTT7  {
 }
 
 /* Таблицы */
-._3ZuGY,  ._3WmPv, main {
+._3ZuGY,  ._3WmPv, main, ._3rtds {
     
     background: #252d38 !important;
     
@@ -36,7 +36,7 @@ body,  ._2PVaI, ._3bTT7  {
 
 
 /* Цвет текста */
-._35HQJ,  .s6l3H, .uqCpu ._2WiQc,  ._1wy04,  ._1eSrF,  ._3uAwj,  ._2uf-t p,   ._2WP_P,  .aHtQu,  .WOZnx,  .XWge1,  ._2-OmZ,  ._1VA3z,  ._1nO95, .hOdmy, ._3mABf, .hOVdl, ._1MTUU,  ._3YkaQ,  ._1CsoA, .k6hKX, h4, .Ku1Wr, ._1O4JB, .Ap16S, .DIRf5, ._1YMw2, .uqCpu ._3oF3u, .uqCpu ._2Ugrj  {
+._35HQJ,  .s6l3H, .uqCpu ._2WiQc,  ._1wy04,  ._1eSrF,  ._3uAwj,  ._2uf-t p,   ._2WP_P,  .aHtQu,  .WOZnx,  .XWge1,  ._2-OmZ,  ._1VA3z,  ._1nO95, .hOdmy, ._3mABf, .hOVdl, ._1MTUU,  ._3YkaQ,  ._1CsoA, .k6hKX, h4, .Ku1Wr, ._1O4JB, .Ap16S, .DIRf5, ._1YMw2, .uqCpu ._3oF3u, .uqCpu ._2Ugrj, ._2-5Us  {
     
     color: #fff !important;
     
@@ -314,7 +314,7 @@ body,  ._2PVaI, ._3bTT7  {
 }
 
 /* Цвет schools */
-._1N-c6,._1Ez8B, ._2wvw8, .DpjNg, .cfe0_, a {
+._1N-c6,._1Ez8B, ._2wvw8, .DpjNg, .cfe0_{
     background-color: #252d38 !important;
 }
 
@@ -332,4 +332,9 @@ body,  ._2PVaI, ._3bTT7  {
 /* Цвет наводки на язык и т.д */
 ._2IhxH:hover {
     background-color: #5e758e !important;
+}
+
+/*Цвет меню в мобильной версии*/
+.EhdCW:after, .wrkfh {
+    background-color: #252d38 !important;
 }
