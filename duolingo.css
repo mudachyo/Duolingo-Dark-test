@@ -1,5 +1,5 @@
 /* Шапка */
-._3g2C1,  .header  {
+._3g2C1,  .header, ._13Hyj  {
     
     background-color: #252d38 !important;
     
@@ -36,7 +36,7 @@ body,  ._2PVaI, ._3bTT7  {
 
 
 /* Цвет текста */
-._35HQJ,  .s6l3H, .uqCpu ._2WiQc,  ._1wy04,  ._1eSrF,  ._3uAwj,  ._2uf-t p,   ._2WP_P,  .aHtQu,  .WOZnx,  .XWge1,  ._2-OmZ,  ._1VA3z,  ._1nO95, .hOdmy, ._3mABf, .hOVdl, ._1MTUU,  ._3YkaQ,  ._1CsoA  {
+._35HQJ,  .s6l3H, .uqCpu ._2WiQc,  ._1wy04,  ._1eSrF,  ._3uAwj,  ._2uf-t p,   ._2WP_P,  .aHtQu,  .WOZnx,  .XWge1,  ._2-OmZ,  ._1VA3z,  ._1nO95, .hOdmy, ._3mABf, .hOVdl, ._1MTUU,  ._3YkaQ,  ._1CsoA, .k6hKX, h4, .Ku1Wr  {
     
     color: #fff !important;
     
@@ -45,14 +45,14 @@ body,  ._2PVaI, ._3bTT7  {
 
 
 /* Цвет фона при навождении панели слева */
-._1eTnJ:hover:not(._2IQEn), ._1eSrF,  ._1KF6e:hover,  .InGFc:hover{
+._1eTnJ:hover:not(._2IQEn), ._1eSrF,  ._1KF6e:hover,  .InGFc:hover, .Ku1Wr:hover, ._1eTnJ:hover:not(._2IQEn), .p_bBD:hover{
     
     background-color: #242c37 !important;
     
 }
 
 /* Кнопка тренировки и т.д */
-.WOZnx:before  {
+.WOZnx:before, ._2NolF:before  {
     
     background-color: var(--web-ui_button-background-color, #405f7a) !important;
     
@@ -128,7 +128,7 @@ body,  ._2PVaI, ._3bTT7  {
 }
 
 /* Поле ввода */
-._1QDX9,  ._2FKqf, ._2gBEa {
+._1QDX9,  ._2FKqf, ._2gBEa, ._3ntDw {
     
     background-color: #35475d !important;
     
@@ -171,7 +171,7 @@ body,  ._2PVaI, ._3bTT7  {
 
 ._3e9O1  {
     
-    background-color: #3a5624 !important;
+    background-color: #0E5023 !important;
     
     color: #58a700 !important;
     
@@ -180,7 +180,7 @@ body,  ._2PVaI, ._3bTT7  {
 /* Цвет фона "Решено НЕверно" */
 ._3vF5k  {
     
-    background-color: #562424 !important;
+    background-color: #500E0E !important;
     
     color: #ea2b2b !important;
     
@@ -194,7 +194,7 @@ body,  ._2PVaI, ._3bTT7  {
 }
 
 /* Цвет иконок в ачивках */
-._2l3ju,  ._19UAQ, ._1o6AI,  .zAIdz,  .HnjwC, .FrL-W {
+._2l3ju,  ._19UAQ, ._1o6AI,  .zAIdz,  .HnjwC, .FrL-W, ._3p5e9 {
     
     background-color: #1d242d !important;
     
@@ -210,7 +210,7 @@ body,  ._2PVaI, ._3bTT7  {
 }
 
 /* Цвет обводки снизу */
-._91Tq4,  ._2hN48,  ._2GEam,  ._2gk65,  ._2gk65  {
+._91Tq4,  ._2hN48,  ._2GEam,  ._2gk65,  ._2gk65, ._3LIgy  {
     
     border-bottom: 2px solid #4e5257 !important;
     
@@ -262,11 +262,53 @@ body,  ._2PVaI, ._3bTT7  {
 }
 
 /*Поле ввода цвет текста */
-._2ti2i {
+._2ti2i, ._2gBEa, ._3Yh_i {
     color: #fff !important;
 }
 
 /* Нажатая кнопка "нравится" */
 .t1Hcp {
     --web-ui_button-background-color: #1d2224 !important;
+}
+
+/* Цвет полоски прогресса в уроках и надписи "+10 опыта" */
+.-oI84, ._34Xbr {
+    color: #fee75c !important;
+}
+
+/*Кнопка "Далее" */
+._9C_ii {
+    --web-ui_button-background-color: #26683a !important ;
+    --web-ui_button-border-color: #0e2816 !important;
+}
+
+/*Фон выхода из урока*/
+._3gK3K {
+    background: #252d38 !important;
+}
+
+/*Фон отправки репорта в уроке*/
+._3lUbm {
+    background: #405f7a !important;
+}
+
+/*Фон при регистрации*/
+.zjpsS {
+    background: #252d38 !important;
+}
+
+/*Фон выбора уроков при регистрации*/
+._1lHHm {
+    background-color: #252d38 !important;
+    border: 2px solid #5e758e !important;
+}
+
+/* Новая панель сайта меню слева */
+._1JSRd, ._3Qm9a {
+    background-color: #1d242d !important;
+}
+
+/* Цвет полоски в рейтинге */
+._3cgRx {
+    border-top-color: rgb(94 117 142) !important;
 }
