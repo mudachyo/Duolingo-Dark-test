@@ -36,7 +36,7 @@ body,  ._2PVaI, ._3bTT7  {
 
 
 /* Цвет текста */
-._35HQJ,  .s6l3H, .uqCpu ._2WiQc,  ._1wy04,  ._1eSrF,  ._3uAwj,  ._2uf-t p,   ._2WP_P,  .aHtQu,  .WOZnx,  .XWge1,  ._2-OmZ,  ._1VA3z,  ._1nO95, .hOdmy, ._3mABf, .hOVdl, ._1MTUU,  ._3YkaQ,  ._1CsoA, .k6hKX, h4, .Ku1Wr, ._1O4JB, .Ap16S, .DIRf5, ._1YMw2  {
+._35HQJ,  .s6l3H, .uqCpu ._2WiQc,  ._1wy04,  ._1eSrF,  ._3uAwj,  ._2uf-t p,   ._2WP_P,  .aHtQu,  .WOZnx,  .XWge1,  ._2-OmZ,  ._1VA3z,  ._1nO95, .hOdmy, ._3mABf, .hOVdl, ._1MTUU,  ._3YkaQ,  ._1CsoA, .k6hKX, h4, .Ku1Wr, ._1O4JB, .Ap16S, .DIRf5, ._1YMw2, .uqCpu ._3oF3u, .uqCpu ._2Ugrj  {
     
     color: #fff !important;
     
@@ -72,7 +72,7 @@ body,  ._2PVaI, ._3bTT7  {
 }
 
 /* Панель смены языки */
-.uqCpu ._2WiQc:hover,  .uqCpu ._1Gh9e,  .uqCpu .uOkpe:hover,  ._2O14B ._2XlfZ ._1v2Gj,  ._1kT7v {
+.uqCpu ._2WiQc:hover,  .uqCpu ._1Gh9e,  .uqCpu .uOkpe:hover,  ._2O14B ._2XlfZ ._1v2Gj,  ._1kT7v, .uqCpu .rupNE:hover,._3oF3u.rupNE, ._3oF3u:hover, ._2Ugrj:hover {
     
     background-color: #1d242d !important;
     
@@ -327,4 +327,9 @@ body,  ._2PVaI, ._3bTT7  {
 /* Цвет полоски в меню */
 .LBwQo {
     border-right: 1px solid #5e758e !important;
+}
+
+/* Цвет наводки на язык и т.д */
+._2IhxH:hover {
+    background-color: #5e758e !important;
 }
