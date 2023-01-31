@@ -1,5 +1,5 @@
 /* Шапка */
-._3g2C1,  .header, ._13Hyj  {
+._3g2C1,  .header, ._13Hyj, .KA96H, .eprJq, ._3IWso  {
     
     background-color: #252d38 !important;
     
@@ -28,7 +28,7 @@ body,  ._2PVaI, ._3bTT7  {
 }
 
 /* Цвет заголовков */
-._3HNwo,  ._3PrAS, ._23mZA,  ._3qZKu,  ._2mU94,  ._26wPn,  ._1hKmP,  .DYCFd,  ._2cltK, .XH783, ._1Jk5X, ._3ly0h,  ._2I8yp,  ._1X2WL,  ._1QhgU,  ._1Y-pT, .__2uf-t,  h2,  ._1ccgT,  .PqXfk,  ._2gk65,  ._1V_qq, .oN_-E {
+._3HNwo,  ._3PrAS, ._23mZA,  ._3qZKu,  ._2mU94,  ._26wPn,  ._1hKmP,  .DYCFd,  ._2cltK, .XH783, ._1Jk5X, ._3ly0h,  ._2I8yp,  ._1X2WL,  ._1QhgU,  ._1Y-pT, .__2uf-t,  h2,  ._1ccgT,  .PqXfk,  ._2gk65,  ._1V_qq, .oN_-E, ._11sIL {
     
     color: #75b2ef !important;
     
@@ -36,7 +36,7 @@ body,  ._2PVaI, ._3bTT7  {
 
 
 /* Цвет текста */
-._35HQJ,  .s6l3H, .uqCpu ._2WiQc,  ._1wy04,  ._1eSrF,  ._3uAwj,  ._2uf-t p,   ._2WP_P,  .aHtQu,  .WOZnx,  .XWge1,  ._2-OmZ,  ._1VA3z,  ._1nO95, .hOdmy, ._3mABf, .hOVdl, ._1MTUU,  ._3YkaQ,  ._1CsoA, .k6hKX, h4, .Ku1Wr  {
+._35HQJ,  .s6l3H, .uqCpu ._2WiQc,  ._1wy04,  ._1eSrF,  ._3uAwj,  ._2uf-t p,   ._2WP_P,  .aHtQu,  .WOZnx,  .XWge1,  ._2-OmZ,  ._1VA3z,  ._1nO95, .hOdmy, ._3mABf, .hOVdl, ._1MTUU,  ._3YkaQ,  ._1CsoA, .k6hKX, h4, .Ku1Wr, ._1O4JB, .Ap16S, .DIRf5, ._1YMw2  {
     
     color: #fff !important;
     
@@ -45,7 +45,7 @@ body,  ._2PVaI, ._3bTT7  {
 
 
 /* Цвет фона при навождении панели слева */
-._1eTnJ:hover:not(._2IQEn), ._1eSrF,  ._1KF6e:hover,  .InGFc:hover, .Ku1Wr:hover, ._1eTnJ:hover:not(._2IQEn), .p_bBD:hover{
+._1eTnJ:hover:not(._2IQEn), ._1eSrF,  ._1KF6e:hover,  .InGFc:hover, .Ku1Wr:hover, ._1eTnJ:hover:not(._2IQEn), .p_bBD:hover, ._3LSYZ:hover{
     
     background-color: #242c37 !important;
     
@@ -309,6 +309,17 @@ body,  ._2PVaI, ._3bTT7  {
 }
 
 /* Цвет полоски в рейтинге */
-._3cgRx {
+._3cgRx, ._168QK {
     border-top-color: rgb(94 117 142) !important;
+}
+
+/* Цвет schools */
+._1N-c6,._1Ez8B, ._2wvw8, .DpjNg, .cfe0_, a {
+    background-color: #252d38 !important;
+}
+
+/*Цвет меню в schools справа */
+._1Xxl4 {
+    background-color: #252d38;
+    border-left: 2px solid #1d242d;
 }
