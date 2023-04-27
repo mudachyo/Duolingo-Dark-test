@@ -1,13 +1,3 @@
-/* ==UserStyle==
-@name         Duolingo Test
-@version      20230427.17.25
-@namespace    userstyles.world/user/mudachyo
-@description  Tried to make a dark theme for duolingo
-@author       mudachyo
-@license      No License
-==/UserStyle== */
-
-@-moz-document domain("duolingo.com") {
 /* Шапка */
 ._3g2C1,  .header, ._13Hyj, .KA96H, .eprJq, ._3IWso  {
     
@@ -369,5 +359,4 @@ body,  ._2PVaI, ._3bTT7  {
 /* Ударный режим цвет обводки */
 .UpoCK{
     border-color: #5e758e !important;
-}
 }
