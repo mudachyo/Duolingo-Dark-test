@@ -1,3 +1,13 @@
+/* ==UserStyle==
+@name         Duolingo Test
+@version      20230427.17.25
+@namespace    userstyles.world/user/mudachyo
+@description  Tried to make a dark theme for duolingo
+@author       mudachyo
+@license      No License
+==/UserStyle== */
+
+@-moz-document domain("duolingo.com") {
 /* Шапка */
 ._3g2C1,  .header, ._13Hyj, .KA96H, .eprJq, ._3IWso  {
     
@@ -43,6 +53,12 @@ body,  ._2PVaI, ._3bTT7  {
     
 }
 
+
+/* Правое меню*/
+._20Ytt {
+    background: #252d38 !important;
+    border: #1d242d !important;
+        }
 
 /* Цвет фона при навождении панели слева */
 ._1eTnJ:hover:not(._2IQEn), ._1eSrF,  ._1KF6e:hover,  .InGFc:hover, .Ku1Wr:hover, ._1eTnJ:hover:not(._2IQEn), .p_bBD:hover, ._3LSYZ:hover{
@@ -353,4 +369,5 @@ body,  ._2PVaI, ._3bTT7  {
 /* Ударный режим цвет обводки */
 .UpoCK{
     border-color: #5e758e !important;
+}
 }
