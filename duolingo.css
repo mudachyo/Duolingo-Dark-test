@@ -1,3 +1,13 @@
+/* ==UserStyle==
+@name         Duolingo Dark Theme
+@version      20230427.17.25
+@namespace    userstyles.world/user/mudachyo
+@description  Tried to make a dark theme for duolingo
+@author       mudachyo
+@license      No License
+==/UserStyle== */
+
+@-moz-document domain("duolingo.com") {
 /* Шапка */
 ._3g2C1,  .header, ._13Hyj, .KA96H, .eprJq, ._3IWso  {
     
@@ -36,7 +46,7 @@ body,  ._2PVaI, ._3bTT7  {
 
 
 /* Цвет текста */
-._35HQJ,  .s6l3H, .uqCpu ._2WiQc,  ._1wy04,  ._1eSrF,  ._3uAwj,  ._2uf-t p,   ._2WP_P,  .aHtQu,  .WOZnx,  .XWge1,  ._2-OmZ,  ._1VA3z,  ._1nO95, .hOdmy, ._3mABf, .hOVdl, ._1MTUU,  ._3YkaQ,  ._1CsoA, .k6hKX, h4, .Ku1Wr, ._1O4JB, .Ap16S, .DIRf5, ._1YMw2, .uqCpu ._3oF3u, .uqCpu ._2Ugrj, ._2-5Us, ._34iKc  {
+._35HQJ,  .s6l3H, .uqCpu ._2WiQc,  ._1wy04,  ._1eSrF,  ._3uAwj,  ._2uf-t p,   ._2WP_P,  .aHtQu,  .WOZnx,  .XWge1,  ._2-OmZ,  ._1VA3z,  ._1nO95, .hOdmy, ._3mABf, .hOVdl, ._1MTUU,  ._3YkaQ,  ._1CsoA, .k6hKX, h4, .Ku1Wr, ._1O4JB, .Ap16S, .DIRf5, ._1YMw2, .uqCpu ._3oF3u, .uqCpu ._2Ugrj, ._2-5Us, ._34iKc, ._1mTpa, ._3d4Mv, ._1Yvlr, ._39Kkf, ._3Fznl  {
     
     color: #fff !important;
     
@@ -45,13 +55,13 @@ body,  ._2PVaI, ._3bTT7  {
 
 
 /* Правое меню*/
-._20Ytt {
+._20Ytt, ._2bIJV {
     background: #252d38 !important;
     border: #1d242d !important;
         }
 
 /* Цвет фона при навождении панели слева */
-._1eTnJ:hover:not(._2IQEn), ._1eSrF,  ._1KF6e:hover,  .InGFc:hover, .Ku1Wr:hover, ._1eTnJ:hover:not(._2IQEn), .p_bBD:hover, ._3LSYZ:hover{
+._1eTnJ:hover:not(._2IQEn), ._1eSrF,  ._1KF6e:hover,  .InGFc:hover, .Ku1Wr:hover, ._1eTnJ:hover:not(._2IQEn), .p_bBD:hover, ._3LSYZ:hover, .xg-WN{
     
     background-color: #242c37 !important;
     
@@ -60,7 +70,7 @@ body,  ._2PVaI, ._3bTT7  {
 /* Кнопка тренировки и т.д */
 .WOZnx:before, ._2NolF:before  {
     
-    background-color: var(--web-ui_button-background-color, #405f7a) !important;
+    background-color: #2b3e4f !important;
     
     border-color: #5e758e !important;
     
@@ -109,7 +119,7 @@ body,  ._2PVaI, ._3bTT7  {
 }
 
 /* Цвет выделения меня в таблице лидеров лиги */
-.IkLCT._3VNma,  ._2p1op,  ._2BPAp, .IkLCT   {
+.IkLCT._3VNma,  ._2p1op,  ._2BPAp   {
     
     background: #252d38 !important;
     
@@ -359,4 +369,26 @@ body,  ._2PVaI, ._3bTT7  {
 /* Ударный режим цвет обводки */
 .UpoCK{
     border-color: #5e758e !important;
+}
+    
+     
+._2WS1S{
+        background-color: rgba(43, 62, 79, 0.8) !important;
+        border: 2px solid #5e758e !important;
+}
+
+/* Цвет полоски справа от меню */
+._1JSRd {
+    border-right: var(--web-ui_navbar-border-right,2px solid rgb(43, 62, 79)) !important;
+    }
+
+/* Меню медалей */
+._2Z3FY{
+    background: rgba(43, 62, 79, 0.9) !important;
+    }
+._2feJW, ._3KHXM {
+    border: 2px solid #5e758e; !important;
+    }
+
+
 }
